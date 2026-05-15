@@ -13,10 +13,20 @@
     src: url('../fonts/montserrat.ttf);
 }*/
 
+/* Color de selección */
+*::selection {
+    background-color: skyblue;
+    color: blue;
+}
+
 body{
     /* cambia la fuente de letra, se colocan varias en caso el navegador no pueda leer la primera, pase a la siguiente y así */
     /* font-family: Georgia, 'Times New Roman', Times, serif; */
     font-family: 'Roboto', 'sans-serif';
+
+    /* Colores */
+    /* hexadecimal */
+    color: #616161;
 }
 
 h1 {
@@ -32,5 +42,15 @@ p{
     font-style: italic;
     text-align: center;
     padding: 40px;
+    color: #dc143c;
 }
 
+/* Sombra de texto */
+.sombreado {
+    /* 1 - sombra en sentido X, 2 - sombra en sentido de Y, 3 - BLUR o difuminado, 4 - color */
+    /* EJE X crece de izquierda a derecha */
+    /* EJE Y crece de arriba a abajo */
+    text-shadow: 2px 2px 4px grey;
+    font-size: 36px;
+    text-align: center;
+}

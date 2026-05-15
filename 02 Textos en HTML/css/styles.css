@@ -1,5 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+/* Implementación de fuente externa */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Implementación de fuente interna */
 /* Si la fuente está en una carpeta dentro del archivo
 @font-face {
     font-family: "brushed";
@@ -11,7 +16,7 @@
 body{
     /* cambia la fuente de letra, se colocan varias en caso el navegador no pueda leer la primera, pase a la siguiente y así */
     /* font-family: Georgia, 'Times New Roman', Times, serif; */
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Roboto', 'sans-serif';
 }
 
 h1 {
@@ -20,5 +25,12 @@ h1 {
 
 p{
     font-size: 22px;
+}
+
+.cita {
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    padding: 40px;
 }
 

@@ -35,6 +35,10 @@ h1 {
 
 p{
     font-size: 22px;
+    /* Interlineado */
+    line-height: 1.5;
+    /* Alinear párrafo */
+    text-align: justify; /*left - valor por defecto*/
 }
 
 .cita {
@@ -53,4 +57,31 @@ p{
     text-shadow: 2px 2px 4px grey;
     font-size: 36px;
     text-align: center;
+}
+
+/* Subrayado de texto */
+.subrayado {
+    /*
+    /*under, over, line-through*/
+    /* text-decoration-line: underline; */
+    /* text-decoration-color: #dc143c; */
+    /* estilo de subrayado, ondeado */
+    /* text-decoration-style: wavy;  */
+    
+    /* Shorthand */
+    text-decoration: underline wavy #dc143c;
+}
+
+/* Propiedades de capitalización */
+.mayusc {
+    text-transform: uppercase;
+}
+
+.minusc {
+    text-transform: lowercase;
+}
+
+.capit {
+    /* primera letra de palabras Mayusculas */
+    text-transform: capitalize;
 }

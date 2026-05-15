@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Si la fuente está en una carpeta dentro del archivo
+@font-face {
+    font-family: "brushed";
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat.ttf);
+}*/
+
+body{
+    /* cambia la fuente de letra, se colocan varias en caso el navegador no pueda leer la primera, pase a la siguiente y así */
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+p{
+    font-size: 22px;
+}
+

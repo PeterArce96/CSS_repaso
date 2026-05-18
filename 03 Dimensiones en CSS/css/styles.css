@@ -39,3 +39,18 @@
     /* overflow-y: scroll; */
     overflow-y: auto; /* en auto se mostrará el scroll solo cuando sea necesario*/
 }
+
+/* Dimensiones Máximas */
+.responsive {
+    /* 100% el tamaño del elemento que lo contenga */
+    max-width: 100%;
+}
+
+.card {
+    width: 33.333%;
+    /* min-width para darle un ancho mínimo y no se reduzca más de ello */
+    min-width: 220px;
+    height: 260px;
+    box-shadow: 2px 2px 4px gray;
+    border-radius: 5px;
+}

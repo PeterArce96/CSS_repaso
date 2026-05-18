@@ -23,3 +23,19 @@
     height: 100px;
     background-color: saddlebrown;
 }
+
+/* DESBORCAMIENTO */
+
+.cita {
+    width: 80%;
+    height: 80px;
+    background-color: lightgray;
+    margin: 0 auto;
+    font-size: 16px;
+    /* overflow hidden - para que no se vea el desbordamiento */
+    /* overflow: hidden; */
+
+    /* Para que se pueda hacer scroll */
+    /* overflow-y: scroll; */
+    overflow-y: auto; /* en auto se mostrará el scroll solo cuando sea necesario*/
+}

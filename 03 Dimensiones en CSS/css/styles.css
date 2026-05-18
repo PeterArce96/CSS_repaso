@@ -1,0 +1,25 @@
+
+.borde-naranja {
+    border: 1px solid orange;
+}
+
+.caja-1 {
+    width: 500px;
+    height: 250px;
+    background-color: orange;
+}
+
+.caja-2 {
+    /* Al ser un div que no tiene un height específico y tampoco contenido, este no se ve reflejado en la página */
+    width: 500px;
+    background-color: plum;
+}
+
+.caja-3 {
+    /* El porcentaje se establece de acuerdo al elemento que lo contenga */
+    /* el 50% del ancho de su elemento padre */
+    width: 50%;
+    /* Los porcentajes de altura tienen una diferencia que luego se verá */
+    height: 100px;
+    background-color: saddlebrown;
+}

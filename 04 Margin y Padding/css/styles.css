@@ -32,3 +32,9 @@
     margin: 20px 30px 20px 40px; 
 }
 
+.aviso {
+    font-size: 32px;
+    color: crimson;
+    border: 1px solid crimson;
+    padding: 20px 40px;
+}

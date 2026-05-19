@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.franja {
+    background-color: #52b7bd;
+    margin-top: 150px;
+    text-align: center;
+}
+
+/* Elementos "p"  dentro de la clase franja*/
+.franja p {
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.franja img {
+    margin-top: -20px;
+}

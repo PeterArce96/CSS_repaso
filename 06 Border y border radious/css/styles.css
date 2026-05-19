@@ -1,0 +1,20 @@
+.caja-1 {
+    width: 400px;
+    height: 200px;
+    /* centrado de un elemento, auto izquierda y derecha */
+    margin: 40px auto; 
+    border: 4px solid orange;
+    /* bordes - dotted(puntos), solid(lineal), dashed(guiones), double(duplicar), ridge, groove, inset, ouset */
+}
+
+.caja-2 {
+    width: 400px;
+    height: 200px;
+    margin: 40px auto;
+     /*cada lado de color diferente  */
+    border-color: blue red green orange;
+    /* cada lado de un ancho diferente */
+    border-width: 10px 8px 12px 6px;
+    /* cada lado de un estilo diferente */
+    border-style: solid dotted dashed double;
+}
